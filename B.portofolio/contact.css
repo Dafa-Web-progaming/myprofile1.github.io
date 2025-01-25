@@ -1,0 +1,112 @@
+/* Reset default margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(12, 13, 66);
+  font-family: sans-serif;
+  color: white;
+}
+
+/* Header section styling */
+.utama {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 10px;
+  background-color: rgb(19, 21, 109);
+}
+
+.utama h1 {
+  font-family: sans-serif;
+  font-size: 30px;
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+}
+
+.navbar ul li {
+  margin-right: 20px;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  font-family: sans-serif;
+  margin: 20px;
+  transition: color 0.4s ease;
+}
+
+.navbar ul li a:hover {
+  color: rgb(189, 189, 237);
+}
+.konten {
+  margin: 100px;
+  border: 7px solid silver;
+}
+.konten h1 {
+  display: flex;
+  justify-content: center;
+  font-family: sans-serif;
+  font-size: 50px;
+  margin: 20px;
+}
+.konten p {
+  display: flex;
+  justify-content: center;
+  font-family: sans-serif;
+  font-size: 17px;
+  margin: 20px;
+}
+
+.kontak form table {
+  margin: 0 auto;
+  padding: 20px 10px;
+  width: 700px; /* Atur panjang tabel */
+  color: silver;
+  border-spacing: 0;
+}
+
+.kontak form table td {
+  width: 100%;
+}
+
+.kontak input,
+.kontak textarea {
+  width: 100%; /* Panjang input sesuai dengan lebar tabel */
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  font-size: 16px;
+}
+
+.kontak textarea {
+  height: 100px; /* Atur tinggi textarea */
+}
+
+.kontak button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+input:focus {
+  background-color: skyblue;
+}
+textarea:focus {
+  background-color: skyblue;
+}
+.kontak button:hover {
+  background-color: #0056b3;
+}
